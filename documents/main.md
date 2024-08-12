@@ -49,6 +49,7 @@ Python code block:
 def greet(name):
     print(f"Hello, {name}!")
 greet("Markdown")
+```
 
 ---
 
