@@ -6,10 +6,10 @@ async function generatePDF() {
     htmlPdf.setOptions({
         format: "A4",
         margin: {
-            top: "20mm",
-            right: "20mm",
-            bottom: "20mm",
-            left: "20mm"
+            top: "16mm",
+            right: "16mm",
+            bottom: "16mm",
+            left: "16mm"
         },
     });
 
