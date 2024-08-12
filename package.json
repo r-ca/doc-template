@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Convert Markdown documents to PDF🐱",
     "scripts": {
-        "build:step1": "npx minicat $(cat documents/files.txt) > work/all.md",
+        "build:step1": "npx minicat $(sed 's|^|documents/|' files.txt) > work/all.md",
         "build:step2": "npx doctoc --notitle --maxlevel 3 work/all.md",
         "build:step3": "node scripts/mdit.js work/all.md work/all_md.html",
         "build:step4": "node scripts/ejs.js template/template.html work/all.html",
