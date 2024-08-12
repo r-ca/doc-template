@@ -26,7 +26,8 @@
 
   /* github-markdown-cssのカスタマイズ */
   .markdown-body {
-    font-family: "Source Han Serif JP", "MS PMincho", serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Source Han Sans JP", "Hiragino Kaku Gothic Pro", "MS PGothic";
+    /* font-family: "Source Han Serif JP", "MS PMincho", serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Source Han Sans JP", "Hiragino Kaku Gothic Pro", "MS PGothic"; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Source Han Sans JP", "Hiragino Kaku Gothic Pro", "MS PGothic";
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Source Han Sans JP", "Hiragino Kaku Gothic Pro", "MS PGothic";
