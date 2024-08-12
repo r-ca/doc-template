@@ -2,18 +2,16 @@
     "compilerOptions": {
         "target": "es2022",
         "module": "es2022",
-        "outDir": "./dist",
         "strict": true,
         "moduleResolution": "node",
         "esModuleInterop": true,
         "typeRoots": ["./node_modules/@types", "./src/types"],
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
+        "experimentalDecorators": true
     },
-    "extends": "./tsconfig.paths.json",
     "include": ["src/**/*.ts", "src/*.ts"],
     "ts-node": {
         "esm": true,
-        "experimentalSpecifierResolution": "node",
-    },
+        "experimentalSpecifierResolution": "node"
+    }
 }
